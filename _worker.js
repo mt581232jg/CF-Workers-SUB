@@ -14,8 +14,10 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+vmess://eyAidiI6ICIyIiwgInBzIjogIlBMLUF0bWFuX1NwLl96X28uby4iLCAiYWRkIjogIndlYjkuc2VydjAwLmNvbSIsICJwb3J0IjogIjU3OTc1IiwgImlkIjogImJjOTdmNjc0LWM1NzgtNDk0MC05MjM0LTBhMWRhNDYwNDFiOSIsICJhaWQiOiAiMCIsICJzY3kiOiAibm9uZSIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiL3ZtZXNzP2VkPTIwNDgiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgImZwIjogIiJ9Cg==
+vmess://eyAidiI6ICIyIiwgInBzIjogIlBMLUF0bWFuX1NwLl96X28uby4iLCAiYWRkIjogInd3dy52aXNhLmNvbS50dyIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICJiYzk3ZjY3NC1jNTc4LTQ5NDAtOTIzNC0wYTFkYTQ2MDQxYjkiLCAiYWlkIjogIjAiLCAic2N5IjogIm5vbmUiLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImNvbmNlbnRyYXRlLXdldC1kZWZpbmUtd29ya2luZy50cnljbG91ZGZsYXJlLmNvbSIsICJwYXRoIjogIi92bWVzcz9lZD0yMDQ4IiwgInRscyI6ICJ0bHMiLCAic25pIjogImNvbmNlbnRyYXRlLXdldC1kZWZpbmUtd29ya2luZy50cnljbG91ZGZsYXJlLmNvbSIsICJhbHBuIjogIiIsICJmcCI6ICIifQo=
+hysteria2://bc97f674-c578-4940-9234-0a1da46041b9@web9.serv00.com:39153/?sni=www.bing.com&alpn=h3&insecure=1#PL-Atman_Sp._z_o.o.
+tuic://bc97f674-c578-4940-9234-0a1da46041b9:admin123@web9.serv00.com:27059?sni=www.bing.com&congestion_control=bbr&udp_relay_mode=native&alpn=h3&allow_insecure=1#PL-Atman_Sp._z_o.o.
 `
 
 let urls = [];
